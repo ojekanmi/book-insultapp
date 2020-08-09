@@ -31,6 +31,7 @@ rs.close();
 connection.close();
 }
 } catch (Exception e) {
+	System.out.println(e);
 return "Database connection problem!";
 }
 return theInsult;
